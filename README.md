@@ -2,6 +2,7 @@
 This repository is the dedicated compatibility tracker for the [Ryubing](https://ryujinx.app) project.
 
 [Click here](https://github.com/Ryubing/Compatibility/issues/new/choose) to open an issue for a new game.
+<br>
 [Click here](https://github.com/Ryubing/Compatibility/issues) to browse for an existing game.
 
 # Rules
