@@ -40,8 +40,17 @@ body:
       value: |
         - ##### CPU: *(e.g. i7-6700)*
         - ##### GPU: *(e.g. NVIDIA RTX 2070)*
-        - ##### GPU Driver version: *(e.g. 545.84)*
         - ##### RAM: *(e.g. 16GB)*
+    validations:
+      required: true
+  - type: textarea
+    id: software-info
+    attributes:
+      label: Software Information
+      value: |
+        - ##### OS: *(e.g. i7-6700)*
+        - ##### GPU Driver version: *(e.g. 545.84)*
+        - ##### Hypervisor: *(Yes/No)*
     validations:
       required: true
   - type: textarea
