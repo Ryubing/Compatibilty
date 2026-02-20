@@ -48,7 +48,7 @@ body:
     attributes:
       label: Software Information
       value: |
-        - ##### OS: *(e.g. i7-6700)*
+        - ##### OS: *(e.g. Windows 11 24H2)*
         - ##### GPU Driver version: *(e.g. 545.84)*
         - ##### Hypervisor: *(Yes/No)*
     validations:
