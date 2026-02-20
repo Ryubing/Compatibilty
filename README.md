@@ -1,9 +1,9 @@
 # Ryubing Compatibilty Tracker
 This repository is the dedicated compatibility tracker for the [Ryubing](https://ryujinx.app) project.
 
-[Click here](https://github.com/Ryubing/Compatibility/issues/new/choose) to open an issue for a new game.
+[Click here](https://github.com/Ryubing/Compatibilty/issues/new/choose) to open an issue for a new game.
 <br>
-[Click here](https://github.com/Ryubing/Compatibility/issues) to browse for an existing game.
+[Click here](https://github.com/Ryubing/Compatibilty/issues) to browse for an existing game.
 
 Anyone is free to update or share their results here, with the following requirements:
 - You **must** use an official stable or canary build with any hacks disabled. All mods & cheats of any kind must also be disabled. Please note that Emudeck and Flatpak builds are not official builds.
