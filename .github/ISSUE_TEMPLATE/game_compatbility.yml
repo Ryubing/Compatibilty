@@ -75,7 +75,7 @@ body:
     attributes:
       label: "Game State"
       description: |
-        - Describe the current game state here.
+        Describe the current game state here.
         - List the issues you've noticed if there are any. 
         - Add links to related issues from the Issues repository if they exist. (https://github.com/Ryubing/Issues/issues)
         - Add links to merge requests that fix issues described if/when applicable. (https://git.ryujinx.app/ryubing/ryujinx)
