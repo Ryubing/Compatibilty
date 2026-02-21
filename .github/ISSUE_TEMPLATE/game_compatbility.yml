@@ -6,6 +6,9 @@ body:
       value: "## Thanks for reporting!"
   - type: markdown
     attributes:
+      value: "#### The name of this issue should be \"Game Name - Title ID (capitalized)\"."
+  - type: markdown
+    attributes:
       value: "#### Please make sure that you've disabled any mods, hacks, or cheats, and that you're on the latest stable or canary release of Ryubing."
   - type: markdown
     attributes:
@@ -14,7 +17,7 @@ body:
     id: game-name
     attributes:
       label: Game Name
-      placeholder: Game Name - Title ID
+      placeholder: Game Name
     validations:
       required: true
   - type: input
@@ -67,11 +70,11 @@ body:
     attributes:
       label: "Game State"
       description: "Describe the current game state here."
-      placeholder: /
-        - Describe the current game state here. 
+      placeholder:
+        - Describe the current game state here.
         - List the issues you've noticed if there are any. 
         - Add links to related issues from the Issues repository if they exist. (https://github.com/Ryubing/Issues/issues)
-        - Add links to pull requests that fix issues described if/when applicable. (https://git.ryujinx.app/ryubing/ryujinx)
+        - Add links to merge requests that fix issues described if/when applicable. (https://git.ryujinx.app/ryubing/ryujinx)
         - Add a zipped save file for easy access to any issues if needed, namely for situations that can only be accessed after several hours of gameplay.
     validations:
       required: true
