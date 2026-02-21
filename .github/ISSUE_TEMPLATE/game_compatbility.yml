@@ -50,7 +50,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "Please list your CPU, your GPU, and your RAM here.
+      value: "Please list your CPU, your GPU, and your RAM here."
   - type: textarea
     id: hardware-specs
     attributes:
@@ -63,7 +63,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "Please list your OS (and kernel, if applicable), your GPU driver version, and whether Hypervisor is enabled (not macOS? answer \"No\").
+      value: "Please list your OS (and kernel, if applicable), your GPU driver version, and whether Hypervisor is enabled (not macOS? answer \"No\")."
   - type: textarea
     id: software-info
     attributes:
