@@ -14,21 +14,21 @@ body:
     id: game-name
     attributes:
       label: Game Name
-      placeholder: Game Name - Title ID (all caps)
+      placeholder: Game Name - Title ID
     validations:
       required: true
   - type: input
     id: game-version
     attributes:
       label: Game Update Version
-      placeholder: #### *(e.g. 1.0.0 or 1.1.3)*
+      placeholder: (e.g. 1.0.0 or 1.1.3)
     validations:
       required: true
   - type: input
     id: emulator-version
     attributes:
       label: Emulator Build Version
-      placeholder: #### *(e.g. 1.1.373)*
+      placeholder: (e.g. 1.1.373)
     validations:
       required: true
   - type: dropdown
