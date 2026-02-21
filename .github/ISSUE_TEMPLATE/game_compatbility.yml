@@ -3,7 +3,7 @@ description: Report a game's compatibility status on Ryubing
 body:
   - type: markdown
     attributes:
-    value: "### Thanks for reporting! Please make sure that you've disabled any mods, hacks, or cheats, and that you're on the latest stable or canary release of Ryubing."
+      value: "### Thanks for reporting! Please make sure that you've disabled any mods, hacks, or cheats, and that you're on the latest stable or canary release of Ryubing."
   - type: input
     id: game-name
     attributes:
