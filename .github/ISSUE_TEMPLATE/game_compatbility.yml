@@ -48,6 +48,9 @@ body:
         - MoltenVK
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "Please list your CPU, your GPU, and your RAM here.
   - type: textarea
     id: hardware-specs
     attributes:
@@ -60,10 +63,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
-        - ##### CPU: *(e.g. i7-6700)*
-        - ##### GPU: *(e.g. NVIDIA RTX 2070)*
-        - ##### RAM: *(e.g. 16GB)*
+      value: "Please list your OS (and kernel, if applicable), your GPU driver version, and whether Hypervisor is enabled (not macOS? answer \"No\").
   - type: textarea
     id: software-info
     attributes:
@@ -74,12 +74,13 @@ body:
         - ##### Hypervisor: *(Yes/No)*
     validations:
       required: true
+
   - type: markdown
     attributes:
       value: |
-        - ##### OS: *(e.g. Windows 11 24H2)*
-        - ##### GPU Driver version: *(e.g. 545.84)*
-        - ##### Hypervisor: *(Yes/No)*
+        - Add links to related issues from the Issues repository if they exist. (https://github.com/Ryubing/Issues/issues)
+        - Add links to merge requests that fix issues described if/when applicable. (https://git.ryujinx.app/ryubing/ryujinx)
+        - Add a zipped save file for easy access to any issues if needed, namely for situations that can only be accessed after several hours of gameplay.
   - type: textarea
     id: game-state
     attributes:
@@ -93,12 +94,6 @@ body:
         - Add a zipped save file for easy access to any issues if needed, namely for situations that can only be accessed after several hours of gameplay.
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        - Add links to related issues from the Issues repository if they exist. (https://github.com/Ryubing/Issues/issues)
-        - Add links to merge requests that fix issues described if/when applicable. (https://git.ryujinx.app/ryubing/ryujinx)
-        - Add a zipped save file for easy access to any issues if needed, namely for situations that can only be accessed after several hours of gameplay.
   - type: textarea
     id: screenshot
     attributes:
