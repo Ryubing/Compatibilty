@@ -70,7 +70,7 @@ body:
     attributes:
       label: "Game State"
       description: "Describe the current game state here."
-      placeholder:
+      placeholder: /
         - Describe the current game state here.
         - List the issues you've noticed if there are any. 
         - Add links to related issues from the Issues repository if they exist. (https://github.com/Ryubing/Issues/issues)
