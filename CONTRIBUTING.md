@@ -21,7 +21,7 @@ Here's an example using _The Legend of Zelda: Tears of the Kingdom_.
 <img width="868" height="75" alt="image" src="https://github.com/user-attachments/assets/b7e5605f-b05e-4e0e-8323-2715059a0e16" />
 
 For issues that are marked "not-in-csv", that means that the title reported in the issue is not in this database, and is an ideal candidate for a pull request.
-Note that you should NOT include "not-in-csv" as a label when making a pull request to add the title to the database.
+Note that you should NOT include "not-in-csv" or "outdated-csv" as labels when making a pull request.
 
 If you are updating a title within the database, please update the UTC timestamp.
 
